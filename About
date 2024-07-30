@@ -1,0 +1,18 @@
+This code allows you to play Tic-Tac-Toe against an AI. The game board is a 3x3 grid where players take turns placing "X" or "O". The first player to align three of their symbols horizontally, vertically, or diagonally wins. If all cells are filled without a winner, the game ends in a draw.
+
+Key Functions:
+print_board(board): Prints the current state of the board.
+check_win(board, player): Checks if the given player has won.
+check_draw(board): Checks if the game is a draw.
+get_ai_move(board): Randomly selects an available move for the AI.
+Game Loop:
+Initialize: Sets up an empty 3x3 board.
+Player Moves: The human player ("X") inputs their move, while the AI ("O") randomly selects a move.
+Update: Marks the board with the current player's symbol.
+Check: After each move, checks for a win or draw.
+Switch: Alternates turns between the player and the AI.
+End: Declares the winner or a draw when the game concludes.
+How to Play:
+The human player is prompted to enter a move by specifying row and column numbers.
+The AI makes its move automatically.
+The game continues until there is a winner or a draw.
